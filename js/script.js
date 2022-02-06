@@ -67,7 +67,7 @@ window.addEventListener('load', function() {
                 <div class = "person-info"> \
                 <div class = "name">' + users[i].name + '</div>\
                 <div>Hobbies: ' + users[i].hobby + '</div></div >\
-                <button class="btn btn-danger">Add as friend</button></div>';
+                <button class="btn btn-danger">Agregar</button></div>';
                 }
             }
         }
