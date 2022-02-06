@@ -1,43 +1,43 @@
 var users = [{
         name: 'Lucy',
         gender: 'F',
-        hobby: 'pets',
+        hobby: 'mascotas',
         avatar: 'avatar1.png'
     },
     {
         name: 'Betty',
         gender: 'F',
-        hobby: 'pets',
+        hobby: 'mascotas',
         avatar: 'avatar2.png'
     },
     {
         name: 'Ronald',
         gender: 'M',
-        hobby: 'music',
+        hobby: 'musica',
         avatar: 'avatar3.png'
     },
     {
         name: 'Christopher',
         gender: 'm',
-        hobby: 'sports',
+        hobby: 'deportes',
         avatar: 'avatar4.png'
     },
     {
         name: 'Ximena',
         gender: 'F',
-        hobby: 'reading',
+        hobby: 'leer',
         avatar: 'avatar5.png'
     },
     {
         name: 'Paul',
         gender: 'M',
-        hobby: 'shopping',
+        hobby: 'compras',
         avatar: 'avatar6.png'
     },
     {
         name: 'Charlie',
         gender: 'M',
-        hobby: 'pets',
+        hobby: 'mascotas',
         avatar: 'avatar7.png'
     },
 ];
@@ -65,9 +65,9 @@ window.addEventListener('load', function() {
                     resultsHTML += '<div class="person-row">\
                 <img src="images/' + users[i].avatar + '"/>\
                 <div class = "person-info"> \
-                <div>' + users[i].name + '</div>\
-                <div>' + users[i].hobby + '</div></div >\
-                <button>Add as friend</button></div>';
+                <div class = "name">' + users[i].name + '</div>\
+                <div>Hobbies: ' + users[i].hobby + '</div></div >\
+                <button class="btn btn-danger">Add as friend</button></div>';
                 }
             }
         }
